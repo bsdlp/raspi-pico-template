@@ -1,0 +1,16 @@
+{
+	"name": "raspi-pico-template",
+	"image": "mcr.microsoft.com/devcontainers/base:jammy",
+	"features": {},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"visualstudioexptteam.vscodeintellicode",
+				"ms-python.vscode-pylance",
+				"paulober.pico-w-go"
+			]
+		}
+	},
+	"remoteUser": "vscode"
+}
